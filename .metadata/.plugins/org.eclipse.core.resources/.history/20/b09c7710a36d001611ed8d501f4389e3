@@ -1,0 +1,43 @@
+import java.util.Scanner;
+import java.io.File;
+
+public class Lab1 {
+
+	public static void main(String[] args) {
+		//Variables
+		int iNumCount = 0;
+		int iSzCount = 0;
+		double dSum = 0.0;
+		
+		Scanner console = null;
+		try {
+		    console = new Scanner(new File("data.txt"));
+		} catch (Exception FileNotFoundException) {
+		    System.err.println("failed to open data.txt");
+		    System.exit(1);
+		}
+		
+		while(console.hasNext())
+		{
+			String szToken = console.next();
+			try {
+			    double d = Double.parseDouble(szToken);
+			    System.out.println("It's a double!");
+			    iNumCount++;
+			    dSum += d;
+			} catch (NumberFormatException e) {
+			    System.out.println("It's not a double!");
+			    iSzCount++;
+			    
+			}
+		}
+		
+		console.close();
+		System.out.print(iNumCount + " ");
+		System.out.print(iSzCount + " ");
+		System.out.println(dSum);
+		
+
+	}
+
+}
