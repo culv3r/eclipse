@@ -1,0 +1,19 @@
+package Lab2;
+
+public class Grades {
+private String name;
+private int grade;
+private int grades[];
+private int count;
+
+public void Grades(String name){
+	this.name = name;
+	this.grades[20] = 0;
+}
+
+public void setGrade(int grade) {
+	this.grades[count] = grade;
+}
+
+
+}
