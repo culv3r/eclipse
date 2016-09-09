@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/culv3r/Downloads/chapter7.zip"/>
+		<item value="/home/culv3r/Downloads/static-methods.zip"/>
 		<item value="/home/culv3r/Downloads/chapter3.zip"/>
 	</list>
 	<section name="CleanDialogSettings">
@@ -15,7 +17,9 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/culv3r/workspace/chapter7.zip_expanded"/>
 			<item value="/home/culv3r/workspace/chapter3.zip_expanded"/>
+			<item value="/home/culv3r/workspace/static-methods.zip_expanded"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>

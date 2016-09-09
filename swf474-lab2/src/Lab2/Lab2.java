@@ -17,11 +17,7 @@ public class Lab2 {
 	 * sends the data to the testGrades method for evaluation and manipulation.
 	 */
 	public static void main(String[] args) {
-		Grades alice = new Grades("");
-		Grades bob = new Grades("");
-		Grades camila = new Grades("");
-		Grades diego = new Grades("");
-		Grades curGrade = new Grades("");
+		Grades curGrade = new Grades("Nobody");
 		Scanner in = null;
 		try {
 		    in = new Scanner(new File("data.txt"));
@@ -32,30 +28,15 @@ public class Lab2 {
 		
 		while (in.hasNext()) {
 		    String name = in.next();
-		    switch (name.toLowerCase()){
-		    case "alice":
-		    	curGrade = alice;
-		    	curGrade.setName("Alice");
-		    	break;
-		    case "bob":
-		    	curGrade = bob;
-		    	curGrade.setName("Bob");
-		    	break;
-		    case "camila":
-		    	curGrade = camila;
-		    	curGrade.setName("Camila");
-		    	break;
-		    case "diego":
-		    	curGrade = diego;
-		    	curGrade.setName("Diego");
-		    	break;
-		    }
+		    curGrade.setName(name);
+		    
 		    while (in.hasNextInt()) {
 		        int grade = in.nextInt();
 		        curGrade.setGrades(grade);
 		        }
 		    testGrades(curGrade);
-		}   
+	    	curGrade.setGrades(-1);
+		   	}   
 
 	}
 	
