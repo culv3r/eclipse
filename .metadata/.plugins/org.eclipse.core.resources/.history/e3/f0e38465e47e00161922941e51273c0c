@@ -1,0 +1,35 @@
+package length;
+
+public class Yard extends Length{
+	//One yard = 0.9144 meters
+	public static final double METERS_PER_YARD = 0.9144;
+	
+	public Yard(double length) {
+		super(length);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void add(Length other) {
+		double add = this.toMeters() + other.toMeters();
+		add = add/METERS_PER_YARD;
+		this.setLength(add);
+		
+	}
+
+	@Override
+	public String getUnit() {
+		if (this.getLength()==1.0)
+			return "yard";
+		return "yards";
+	}
+
+	@Override
+	public double toMeters() {
+		double i = this.getLength();
+		i = i * METERS_PER_YARD;
+		return i;
+	}
+
+	
+}

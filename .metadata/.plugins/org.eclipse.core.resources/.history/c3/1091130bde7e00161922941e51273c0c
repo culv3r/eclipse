@@ -1,0 +1,44 @@
+import java.util.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import length.Length;
+import length.Inch;
+import length.Meter;
+import length.Foot;
+import length.Yard;
+
+public class Lab4 {
+
+	public static void main(String[] args) {
+		ArrayList<Length> lengths = new ArrayList<Length>();
+		Scanner in = null;
+		try {
+		    in = new Scanner(new File("data.txt"));
+		} catch (FileNotFoundException exception) {
+		    throw new RuntimeException("failed to open data.txt");
+		}
+		// need more code for other parts of this assignment
+		while (in.hasNextDouble()) {
+		    double value = in.nextDouble();
+		    String unit = in.next();
+		    Length length = null;
+		    // code here to use the value of unit to create the
+		    // right type of Length object and store it in length.
+		    if (unit.equals("Inch")||unit.equals("Inches"))
+		    	length = new Inch(value);
+		    if (unit.equals("Foot")||unit.equals("Feet"))
+		    	length = new Foot(value);
+		    if (unit.equals("Yard")||unit.equals("Yards"))
+		    	length = new Yard(value);
+		    if (unit.equals("Meter")||unit.equals("Meters"))
+		    	length = new Meter(value);
+		    lengths.add(length);
+		    System.out.println(value + " " + unit);
+		    System.out.println(length);
+		    // need more code for other parts of this assignment
+		}
+		
+		// need more code for other parts of this assignment
+	}
+
+}

@@ -1,0 +1,31 @@
+package length;
+
+public class Foot extends Length{
+	//one foot = 0.3048 meters
+	public static final double METERS_PER_FOOT = 0.3048;
+	
+	public Foot(double length) {
+		super(length);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void add(Length other) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getUnit() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double toMeters() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}

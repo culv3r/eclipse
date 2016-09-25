@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/culv3r/Downloads/gradebook3.zip"/>
 		<item value="/home/culv3r/Downloads/chapter7.zip"/>
 		<item value="/home/culv3r/Downloads/static-methods.zip"/>
 		<item value="/home/culv3r/Downloads/chapter3.zip"/>

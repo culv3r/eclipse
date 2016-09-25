@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="length.Length"/>
+<fullyQualifiedTypeName name="length.Inch"/>
+<fullyQualifiedTypeName name="length.Meter"/>
+<fullyQualifiedTypeName name="length.Foot"/>
+<fullyQualifiedTypeName name="length.Yard"/>
 </qualifiedTypeNameHistroy>
