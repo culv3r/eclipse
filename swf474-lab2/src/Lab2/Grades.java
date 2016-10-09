@@ -64,6 +64,9 @@ public int length(){
  * by the number of elements in the array which is returned as an average.
  */
 public double average(){
+	if (this.grades.isEmpty()){
+		return -99999;
+	}
 	double average = 0.0;
 	for (int i = 0; i<grades.size(); i++){
 		average += grades.get(i);
@@ -79,6 +82,9 @@ public double average(){
  * of elements is odd or even, returns a median double.
  */
 public double median(){
+	if (this.grades.isEmpty()){
+		return -99999;
+	}
 	ArrayList<Integer> median = new ArrayList<Integer>();
 	for (int i = 0; i < grades.size(); i++){
 		median.add(grades.get(i));

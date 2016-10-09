@@ -6,4 +6,8 @@
 <fullyQualifiedTypeName name="length.Meter"/>
 <fullyQualifiedTypeName name="length.Foot"/>
 <fullyQualifiedTypeName name="length.Yard"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="Lab2.Grades"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 </qualifiedTypeNameHistroy>

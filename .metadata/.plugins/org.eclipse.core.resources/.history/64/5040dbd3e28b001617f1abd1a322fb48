@@ -1,0 +1,10 @@
+package gitExtraCreditPackage;
+
+public class Everybody {
+	public static void main(String[] args) {
+		System.out.println("First print statement by Tom Bylander, Oct. 4, 12:50pm");
+		System.out.println("First print statement by Daniel Larsen, Oct. 5, 8:58am");
+		System.out.println("First print statement by Lauro Perez Jr, Oct. 5, 3:49pm");
+		System.out.println("Fourth print statement by Steven Smith, Oct. 5, 7:09pm");
+	}
+}

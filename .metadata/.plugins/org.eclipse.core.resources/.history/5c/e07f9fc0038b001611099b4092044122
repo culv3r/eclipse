@@ -1,0 +1,7 @@
+package gitExtraCreditPackage;
+
+public class Everybody {
+	public static void main(String[] args) {
+		System.out.println("First print statement by Tom Bylander, Oct. 4, 12:50pm");
+	}
+}
