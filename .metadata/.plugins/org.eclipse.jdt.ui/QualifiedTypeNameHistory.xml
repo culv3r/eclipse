@@ -1,13 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="length.Length"/>
-<fullyQualifiedTypeName name="length.Inch"/>
-<fullyQualifiedTypeName name="length.Meter"/>
-<fullyQualifiedTypeName name="length.Foot"/>
-<fullyQualifiedTypeName name="length.Yard"/>
-<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
-<fullyQualifiedTypeName name="Lab2.Grades"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
-<fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>

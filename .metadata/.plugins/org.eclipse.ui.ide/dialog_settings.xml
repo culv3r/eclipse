@@ -1,55 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-		<item value="/home/culv3r/git/git-extra-credit"/>
-		<item value="/home/culv3r/Downloads/gradebook3.zip"/>
-		<item value="/home/culv3r/Downloads/chapter7.zip"/>
-		<item value="/home/culv3r/Downloads/static-methods.zip"/>
-		<item value="/home/culv3r/Downloads/chapter3.zip"/>
-	</list>
-	<section name="CleanDialogSettings">
-		<item value="569" key="DIALOG_WIDTH"/>
-		<item value="true" key="TOGGLE_SELECTED"/>
-		<item value="394" key="DIALOG_HEIGHT"/>
-		<item value="402" key="DIALOG_X_ORIGIN"/>
-		<item value="140" key="DIALOG_Y_ORIGIN"/>
-	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="/home/culv3r/eclipse/java-latest-released/eclipse/plugins/org.apache.derby.ui"/>
-			<item value="/home/culv3r/workspace"/>
-			<item value="/home/culv3r/workspace/chapter7.zip_expanded"/>
-			<item value="/home/culv3r/workspace/chapter3.zip_expanded"/>
-			<item value="/home/culv3r/workspace/static-methods.zip_expanded"/>
+			<item value="/home/culv3r/workspace/section2-team01"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
-	</section>
-	<section name="WORKBENCH_SETTINGS">
-		<list key="ENABLED_TRANSFERS">
-		</list>
-	</section>
-	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
-		</list>
-	</section>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item value="358" key="DIALOG_X_ORIGIN"/>
-		<item value="118" key="DIALOG_Y_ORIGIN"/>
-	</section>
-	<section name="BasicNewProjectResourceWizard">
-	</section>
-	<section name="SaveAsDialogSettings">
-		<item value="525" key="DIALOG_WIDTH"/>
-		<item value="1|Noto Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="618" key="DIALOG_HEIGHT"/>
-		<item value="702" key="DIALOG_X_ORIGIN"/>
-		<item value="110" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
