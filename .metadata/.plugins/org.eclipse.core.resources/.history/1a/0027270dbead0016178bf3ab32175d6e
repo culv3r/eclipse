@@ -1,0 +1,50 @@
+import java.util.HashMap;
+
+public class DualHashMap<K, V> implements DualMap<K,V> {
+
+	private HashMap<K,V> keys;
+	private HashMap<V,K> values;
+	
+	public DualHashMap(){
+		keys = new HashMap<K,V>();
+		values = new HashMap<V,K>();
+	}
+	
+	@Override
+	public void put(K key, V value) {
+		boolean noDup = true;		
+		
+		if (keys.containsKey(key)){
+			System.out.println(key + " is already a key.");
+			noDup = false;
+		}
+			
+		if(values.containsKey(value)){
+			System.out.println(key + " is already a value.");
+			noDup = false;
+		}
+		
+		if (noDup){
+			keys.put(key, value);
+			values.put(value, key);
+		}
+
+	}
+
+	@Override
+	public void remove(K key, V value) {
+		keys.remove(key, value);
+		values.remove(value,key);
+	}
+
+	@Override
+	public V get(K key) {
+		return keys.get(key);
+	}
+
+	@Override
+	public K reverseGet(V value) {
+		return values.get(value);
+	}
+
+}
